@@ -29,7 +29,7 @@ const bgcolour = {
 };
 export const GymDetail = () => {
   const [coverImage, setCoverImage] = useState(
-    "https://www.wednesdaymorningcoffee.com/wp-content/uploads/2019/05/Banner-1-1.jpg"
+    "https://source.unsplash.com/random/900×700/?gym"
   );
   const { user_id } = useParams();
   const [curr, setcurr] = useState(null);
